@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.content-blog{
+	width: 100%;
+	height: auto;
+	margin-top: 80px;
+}
+.content-blog .menusp{
+	width: 77%;
+	height: auto;
+	border: 1px solid gray;
+	text-align: center;
+}
+.content-blog .left .menusp h4.tieude{
+	font-size: 20px;
+    font-family: time new romane;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background: black;
+    color: white;
+}
+.content-blog .menusp ul.danhsach{
+	list-style: none;
+}
+.content-blog .menusp ul.danhsach li{
+	border-bottom: 1px solid #80808038;
+}
+.content-blog .menusp ul.danhsach li:last-child{
+	border-bottom: none;
+}
+.content-blog .menusp ul.danhsach li a{
+	text-decoration: none;
+    color: gray;
+    display: block;
+    padding-bottom: 15px;
+    padding-top: 9px;
+}
+.content-blog .menusp ul.danhsach li a:hover{
+	color: black;
+	transition: 0.4s;
+}
+.content-blog .right{
+	width: 100%;
+	height: auto;
+}
+.content-blog .right .cottren{
+	width: 100%;
+	height: auto;
+}
+.content-blog .right .cottren a.anhnen{width: 100%;height: 350px;}
+.content-blog .right .cottren a.anhnen img.anh{
+	width: 100%;
+	height: 350px;
+	background-size: cover;
+    background: antiquewhite;
+}
+.content-blog .right .cottren a.td{
+	text-decoration: none;
+    color: black;
+    display: block;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.content-blog .right .cottren p{
+	color: gray;
+    font-size: 15px;
+    font-family: time new romane;
+}
+.content-blog .right .cottren a.rm{
+	text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 100px;
+    font-size: 13px;
+}
+.content-blog .right .cottren a.rm:hover{
+	margin-left:5px;
+	transition: 0.4s; 
+}
+/*CSS CHO PHAN TRANG*/
+.phantrangblog{
+    width: 100%;
+    height: auto;
+    text-align:center;
+    margin-bottom:50px;
+    margin-top:40px;
+}
+.phantrangblog ul.phtrang{
+    list-style: none;
+    display: inline;
+    float:left;
+    margin-left:67%;
+    transform: translateX(-67%);
+}
+.phantrangblog ul li{
+    float:left;
+    display:inline;
+    border:1px solid gray;
+    background-color: #ffffff;
+    border-radius:50%;
+    margin:0px 3px;
+}
+.phantrangblog ul li:first-child{border:none;}
+.phantrangblog ul li:first-child:hover{background: none;}
+.phantrangblog ul li:last-child{border:none;}
+.phantrangblog ul li:last-child:hover{background:none;}
+
+.phantrangblog ul li a{
+    color:#222222;
+    text-decoration: none;
+    padding:7px 7px; 
+}
+.phantrangblog ul li:hover{
+    background-color: gray;
+    color:white;
+    transition: 0.4s;
+}
+/*HET CSS CHO PHAN TRANG*/

@@ -1,0 +1,125 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+a:hover{
+	text-decoration: none;
+}
+.banner-contact{
+	background: url('./images/03.png') no-repeat;
+    width: 100%;
+    height: 350px;
+    background-size: cover; 
+    position: relative;
+}
+.banner-contact .noidung span {
+    color: white;
+    display: inline-block;
+    padding-right: 5px;
+    text-transform: uppercase;
+    position: relative;
+    z-index:2;
+}
+
+.banner-contact .noidung h1 {
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    position: relative;
+    z-index:2;
+}
+
+.banner-contact .noidung {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 100px;
+}
+.banner-contact:after{
+    content:"";
+    width:100%;
+    height: 350px;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: #00000045;
+} 
+h3.tieude{
+	font-size: 20px;
+	font-family: Time new roman;
+	font-weight: 600;
+	text-transform: uppercase;
+	display: block;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+h4.hienthi{
+	font-size: 15px;
+    font-family: Time new roman;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #222;
+    border-bottom: 1px solid #80808069;
+    padding-bottom: 11px;
+    width: 124px;
+}
+.content-thongtin{
+	width: 100%;
+	height: 550px;
+	margin-bottom: 170px;
+}
+.content-thongtin .left{
+	width: 100%
+	height:auto;
+
+}
+.content-thongtin .right{
+	width: 100%;
+	height:auto;
+}
+.content-thongtin .right .tren .tensp{
+	font-size: 13px;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 23px;
+}
+.content-thongtin .right .phai .giasp{
+	font-size: 13px;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 23px;
+}
+.content-thongtin .right .tongtien{
+	display: block;
+    font-size: 20px;
+    font-family: serif;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-top: 1px solid #80808059;
+    width: 100%;
+    padding-left: 20px;
+    color: red;
+}
+.content-thongtin .right .duoi{
+	width: 100%;
+	height: 300px;
+}
+.content-thongtin .right .duoi form.luachon{
+	background: #80808024;
+    padding: 30px 50px;
+}
+.content-thongtin .right .duoi a{
+	font-size: 40px;
+    padding-left: 15px;
+    color: white;
+    background: cornflowerblue;
+    border-radius: 13px;
+}
+.content-thongtin .right .duoi .thanhtoan{
+	margin-top: 15px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
