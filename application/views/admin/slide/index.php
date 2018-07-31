@@ -32,7 +32,7 @@
             <a href="<?php echo base_url() ?>admin/slide/add" class="nutthem btn btn-outline-info float-right">Thêm Slide</a>
         </div>
         <div class="noidung">
-            <h1 class="danhsach" style="width: 400px;">Danh sách slide</h1>
+            <h1 class="danhsach" style="width: 400px;">Danh sách slide cho trang chủ</h1>
             <span class="hienthi"><?php echo $this->session->flashdata('message'); ?></span>
         </div>
         <table class="table table-hover danhsachslide">
@@ -62,7 +62,6 @@
                 <?php endforeach ?>
             </tbody>
         </table>
-        
     </div>
 </body>
 </html>
